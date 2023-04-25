@@ -1,5 +1,9 @@
 [workspace]
 members = ["crates/*"]
+
+[workspace.package]
+version = "0.4.0"
+
 [profile.dev]
 split-debuginfo = "unpacked"
 
